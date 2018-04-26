@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>On The Road | Web Of Things | Artevelde University College Ghent</title>
+  <!-- CSS libraries -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.35.0/dist/material-components-web.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+  <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell">s</div>
+      <div class="mdc-layout-grid__cell">
+        <button class="mdc-button btnAction">
+          <i class="material-icons mdc-button__icon" aria-hidden="true">favorite</i>
+          Button
+        </button>
+      </div>
+      <div class="mdc-layout-grid__cell">
+        <div class="mdc-switch">
+          <input type="checkbox" id="basic-switch" class="mdc-switch__native-control" role="switch">
+          <div class="mdc-switch__background">
+            <div class="mdc-switch__knob"></div>
+          </div>
+        </div>
+        <label for="basic-switch">off/on</label>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript libraries -->
+  <script src="https://unpkg.com/material-components-web@0.35.0/dist/material-components-web.js"></script>
+  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.20.2.js"></script>
+  <!-- Custom Sripts -->
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

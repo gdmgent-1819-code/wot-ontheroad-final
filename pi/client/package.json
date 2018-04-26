@@ -1,0 +1,14 @@
+{
+  "name": "ontheroad-client",
+  "version": "1.0.0",
+  "description": "Web Of Things On The Road Client",
+  "main": "index.js",
+  "author": "Philippe De Pauw - Waterschoot",
+  "license": "MIT",
+  "dependencies": {
+    "pubnub": "^4.20.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
